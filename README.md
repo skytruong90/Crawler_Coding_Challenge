@@ -14,28 +14,26 @@ used in a portion of a webpage.
 
 ## Plan Sovling this challenge:
 1. Import the necessary libraries: requests, BeautifulSoup, Counter, and re.
-
-2.Define a function extract_words(html_content) that takes in the HTML content of a webpage as an argument.
-
-Use the BeautifulSoup library to parse the HTML content and find the section of the page with the id attribute of "History".
-Find the previous h2 tag and loop through the siblings of the h2 tag until the next h2 tag is found, concatenating all of the text of the elements between the two h2 tags into a variable 'text'.
-Tokenize the text using a regular expression and remove any punctuation.
-Convert all of the words to lowercase and return the resulting list of words.
-Define a function count_words(words, exclude_words) that takes in a list of words and a list of words to exclude as arguments.
-Create a Counter object to count the occurrences of each word.
-Remove any words that should be excluded from the search.
-Return the resulting Counter object.
-Define a function get_top_words(word_count, num_words) that takes in a Counter object and the number of words to return as arguments.
-Use the most_common() method of the Counter object to return the top N most common words.
-Define the main function main(url, num_words=10, exclude_words=[]) that takes in the URL of the webpage to scrape, the number of words to return, and a list of words to exclude from the search.
-Use the requests library to get the HTML content of the webpage.
-Pass the HTML content to the extract_words function to get the list of words.
-Pass the list of words and the list of excluded words to the count_words function to get the Counter object.
-Pass the Counter object and the number of words to return to the get_top_words function to get the top N most common words.
-Output the results.
-Get the number of words to return from the user by calling input("Enter the number of words to return: ") and converting the input to integer.
-Get the list of words to exclude from the user by calling input("Enter a list of words to exclude from the search, separated by commas: ") and splitting the input by comma.
-Call the main function by passing the URL of the webpage to scrape, the number of words to return, and a list of words to exclude from the search obtained from the user.
+2. Define a function extract_words(html_content) that takes in the HTML content of a webpage as an argument.
+3. Use the BeautifulSoup library to parse the HTML content and find the section of the page with the id attribute of "History".
+4. Find the previous h2 tag and loop through the siblings of the h2 tag until the next h2 tag is found, concatenating all of the text of the elements between the two h2 tags into a variable 'text'.
+5. Tokenize the text using a regular expression and remove any punctuation.
+6. Convert all of the words to lowercase and return the resulting list of words.
+7. Define a function count_words(words, exclude_words) that takes in a list of words and a list of words to exclude as arguments.
+8. Create a Counter object to count the occurrences of each word.
+9. Remove any words that should be excluded from the search.
+10. Return the resulting Counter object.
+11. Define a function get_top_words(word_count, num_words) that takes in a Counter object and the number of words to return as arguments.
+12. Use the most_common() method of the Counter object to return the top N most common words.
+13. Define the main function main(url, num_words=10, exclude_words=[]) that takes in the URL of the webpage to scrape, the number of words to return, and a list of words to exclude from the search.
+14. Use the requests library to get the HTML content of the webpage.
+15. Pass the HTML content to the extract_words function to get the list of words.
+16. Pass the list of words and the list of excluded words to the count_words function to get the Counter object.
+17. Pass the Counter object and the number of words to return to the get_top_words function to get the top N most common words.
+18. Output the results.
+19. Get the number of words to return from the user by calling input("Enter the number of words to return: ") and converting the input to integer.
+20. Get the list of words to exclude from the user by calling input("Enter a list of words to exclude from the search, separated by commas: ") and splitting the input by comma.
+21. Call the main function by passing the URL of the webpage to scrape, the number of words to return, and a list of words to exclude from the search obtained from the user.
 
 ## Explanation of the python code:
 This code is a Python script that uses the requests library to scrape the contents of a webpage, in this case the Wikipedia page for Microsoft, and then uses the BeautifulSoup library to parse the HTML content of the page. The script defines several functions that work together to extract words from the page, count the occurrences of each word, and return the top N most common words.
