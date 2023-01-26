@@ -2,9 +2,9 @@
 ### This is a coding challenge that I worked on by myself and the programming language I used is Python. 
 
 ## How to install:
-1. Clone the repository: 
+1. Clone the repository: https://github.com/skytruong90/Crawler_Coding_Challenge.git
 2. The main code is inside the code folder when you download everything.
-3. Run the project with any IDE.
+3. Run the project with a Pycharm IDE.
 
 ## My Objective: 
 ### Is to implement a console application that displays the most common words
