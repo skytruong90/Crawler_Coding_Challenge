@@ -46,4 +46,5 @@ The get_top_words function takes in the Counter object and the number of words t
 The main function is called with the URL of the webpage to scrape, the number of words to return, and a list of words to exclude from the search. It uses the requests library to get the HTML content of the webpage, and then passes this content to the extract_words function to get the list of words. It then passes this list of words and the list of excluded words to the count_words function to get the Counter object. Finally, it passes the Counter object and the number of words to return to the get_top_words function to get the top N most common words. It then outputs the results.
 
 ## Sceenshot:
+Here is an example of what the output of the script might look like when run with the default URL of "https://en.wikipedia.org/wiki/Microsoft" and default values of 10 words to return and an empty list of excluded words:
 <img src= "Screenshot 2023-01-26 155320.png" width="700">
