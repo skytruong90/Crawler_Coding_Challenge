@@ -13,8 +13,10 @@ used in a portion of a webpage.
 ### You can find more detail about the challenge in a document called, "Crawler Coding Challenge"
 
 ## Plan Sovling this challenge:
-Import the necessary libraries: requests, BeautifulSoup, Counter, and re.
-Define a function extract_words(html_content) that takes in the HTML content of a webpage as an argument.
+1. Import the necessary libraries: requests, BeautifulSoup, Counter, and re.
+
+2.Define a function extract_words(html_content) that takes in the HTML content of a webpage as an argument.
+
 Use the BeautifulSoup library to parse the HTML content and find the section of the page with the id attribute of "History".
 Find the previous h2 tag and loop through the siblings of the h2 tag until the next h2 tag is found, concatenating all of the text of the elements between the two h2 tags into a variable 'text'.
 Tokenize the text using a regular expression and remove any punctuation.
