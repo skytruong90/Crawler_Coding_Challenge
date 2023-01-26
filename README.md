@@ -8,7 +8,7 @@
 
 ## My Objective: 
 1. Is to implement a console application that displays the most common words used in a portion of a webpage.
-2. You can find more detail about the challenge in a document called, "Crawler Coding Challenge".
+2. You can find more detail about the challenge in a document called, "Crawler Coding Challenge.docx".
 
 ## Plan Sovling this challenge:
 1. Import the necessary libraries: requests, BeautifulSoup, Counter, and re.
