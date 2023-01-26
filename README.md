@@ -44,3 +44,6 @@ The count_words function takes in the list of words and a list of words to exclu
 The get_top_words function takes in the Counter object and the number of words to return as arguments, and then uses the most_common() method of the Counter object to return the top N most common words.
 
 The main function is called with the URL of the webpage to scrape, the number of words to return, and a list of words to exclude from the search. It uses the requests library to get the HTML content of the webpage, and then passes this content to the extract_words function to get the list of words. It then passes this list of words and the list of excluded words to the count_words function to get the Counter object. Finally, it passes the Counter object and the number of words to return to the get_top_words function to get the top N most common words. It then outputs the results.
+
+## Sceenshot:
+<img src= "" width="700">
