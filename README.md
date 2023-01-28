@@ -46,4 +46,6 @@ The main function is called with the URL of the webpage to scrape, the number of
 
 ## Sceenshot:
 Here is an example of what the output of the script might look like when run with the default URL of "https://en.wikipedia.org/wiki/Microsoft" and default values of 10 words to return and an empty list of excluded words:
+
+
 <img src= "Screenshot 2023-01-26 155320.png" width="700">
